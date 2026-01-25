@@ -12,7 +12,7 @@ from sklearn.metrics import classification_report  # 用于生成分类报告，
     CSV文件应与脚本位于同一目录，或者提供正确的文件路径。
 """
 # 从CSV文件'./breast_cancer_data.csv'中读取数据到pandas DataFrame
-data_set = pd.read_csv("./breast_cancer_data.csv")
+data_set = pd.read_csv("breast_cancer_data.csv")
 # print(data_set) # 可以取消注释此行来查看加载的数据集
 
 """
