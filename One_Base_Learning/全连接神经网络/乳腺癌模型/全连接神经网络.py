@@ -30,7 +30,7 @@ plt.rcParams['axes.unicode_minus'] = False  # 解决负号显示问题
     5. 特征归一化
 """
 # 读取乳腺癌数据集
-data_set = pd.read_csv("../线性回归和逻辑回归模型/breast_cancer_data.csv")
+data_set = pd.read_csv("../../线性回归和逻辑回归模型/breast_cancer_data.csv")
 print(data_set)  # 打印数据集基本信息，了解数据结构
 
 # 提取特征数据：所有行，除了最后一列
