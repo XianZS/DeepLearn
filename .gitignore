@@ -3,6 +3,10 @@ __pycache__/
 *.py[codz]
 *$py.class
 
+# my make files
+.idea
+.trea
+
 # C extensions
 *.so
 
